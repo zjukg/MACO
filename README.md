@@ -34,7 +34,7 @@ There are also some other works about multi-modal knowledge graphs. If you are i
 ### Knowledge Graph with Large Language Models
 - [KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
 
-## Open-source Tools
+### Open-source Tools
 - [NeuralKG](https://github.com/zjukg/NeuralKG)
 
 ## 🤝 Cite:
