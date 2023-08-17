@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/MACO/main/LICENSE)
 [![AAAI](https://img.shields.io/badge/NLPCC'23-brightgreen)](http://tcci.ccf.org.cn/conference/2023/)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
- - [*CausE: Towards Causal Knowledge Graph Embedding*](https://arxiv.org/abs/2308.06696)
+ - [*MACO: A Modality Adversarial and Contrastive Framework for Modality-missing Multi-modal Knowledge Graph Completion*](https://arxiv.org/abs/2308.06696)
 
 > Recent years have seen significant advancements in multi-modal knowledge graph completion (MMKGC). MMKGC enhances knowledge graph completion (KGC) by integrating multi-modal entity information, thereby facilitating the discovery of unobserved triples in the large-scale knowledge graphs (KGs). Nevertheless, existing methods emphasize the design of elegant KGC models to facilitate modality interaction, neglecting the real-life problem of missing modalities in KGs. The missing modality information impedes modal interaction, consequently undermining the model's performance. In this paper, we propose a modality adversarial and contrastive framework (MACO) to solve the modality-missing problem in MMKGC. MACO trains a generator and discriminator adversarially to generate missing modality features that can be incorporated into the MMKGC model. Meanwhile, we design a cross-modal contrastive loss to improve the performance of the generator. Experiments on public benchmarks with further explorations demonstrate that MACO could achieve state-of-the-art results and serve as a versatile framework to bolster various MMKGC models.
 
@@ -15,7 +15,7 @@
 The code will be released soon!
 
 ## 💡 Related Works
-There are also some other works about multi-modal knowledge graphs. If you are interest in multi-modal knowledge graphs, you could have a look at them:
+There are also some other works about multi-modal knowledge graphs from ZJUKG team. If you are interest in multi-modal knowledge graphs, you could have a look at them:
 
 ### Multi-modal Entity Alignment
 - (ACM MM 2023) [MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://github.com/zjukg/MEAformer)
