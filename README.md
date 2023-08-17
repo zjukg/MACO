@@ -25,12 +25,6 @@ There are also some other works about multi-modal knowledge graphs from ZJUKG te
 - (SIGIR 2022) [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://github.com/zjukg/MKGformer)
 - (IJCNN 2023) [Modality-Aware Negative Sampling for Multi-modal Knowledge Graph Embedding](https://github.com/zjukg/MANS)
 
-### Knowledge Graphs for Multi-modal Learning
-- (AAAI 2023) [DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning](https://github.com/zjukg/DUET)
-- (ICANN 2023) [Target-oriented Sentiment Classification with Sequential Cross-modal Semantic Graph](https://github.com/zjukg/SeqCSG)
-- (ISWC 2021) [Zero-shot Visual Question Answering using Knowledge Graph](https://github.com/zjukg/ZS-F-VQA)
-- (WWW 2021) [OntoZSL: Ontology-enhanced Zero-shot Learning](https://github.com/zjukg/OntoZSL)
-
 ### Knowledge Graph with Large Language Models
 - [KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
 
