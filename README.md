@@ -12,20 +12,22 @@
 ![Model_architecture](figure/model.png)
 
 ## 🔬 Dependencies
-- Python 3
-- PyTorch >= 1.8.0
-- NumPy
-- DGL
+- python 3
+- torch >= 1.8.0
+- numpy
+- dgl-cu111 == 0.9.1
 - All experiments are performed with one A100-40G GPU.
 
 ## 📕 Code Path
-- `MACO/` pretrain with MACO to complete the modality information. We have prepared the FB15K-237 dataset and the visual embeddings extracted with Vision Transformer (ViT).
+- `MACO/` pretrain with MACO to complete the modality information. We have prepared the FB15K-237 dataset and the visual embeddings extracted with Vision Transformer (ViT). You should first download it from [this link](https://drive.google.com/file/d/1XN7e1_6ERZWPrg3f0gis5ZPb3tpKEWmv/view?usp=drive_link).
 - `MMKGC/` run multi-modal KGC to evaluate the quality of generated visual features.
 
 - run MACO
 ```shell
 cd MACO/
-bash main.py
+# download the FB15K-237 visual embeddings and put it in data/
+# run the training code
+python main.py
 ```
 
 - run MMKGC
