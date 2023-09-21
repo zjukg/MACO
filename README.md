@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=0 nohup python run_ikrl.py -dataset=$DATA \
 This is a simple demo to run IKRL model. The scripts to train other models (TBKGC, RSME) can be found in `MMKGC/scripts/`.
 
 ## 💡 Related Works
-There are also some other works about multi-modal knowledge graphs. If you are interest in multi-modal knowledge graphs, you could have a look at them:
+There are also some other works about multi-modal knowledge graphs from ZJUKG team. If you are interest in multi-modal knowledge graphs, you could have a look at them:
 
 ### Multi-modal Entity Alignment
 - (ACM MM 2023) [MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://github.com/zjukg/MEAformer)
@@ -73,16 +73,10 @@ There are also some other works about multi-modal knowledge graphs. If you are i
 - (SIGIR 2022) [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://github.com/zjukg/MKGformer)
 - (IJCNN 2023) [Modality-Aware Negative Sampling for Multi-modal Knowledge Graph Embedding](https://github.com/zjukg/MANS)
 
-### Knowledge Graphs for Multi-modal Learning
-- (AAAI 2023) [DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning](https://github.com/zjukg/DUET)
-- (ICANN 2023) [Target-oriented Sentiment Classification with Sequential Cross-modal Semantic Graph](https://github.com/zjukg/SeqCSG)
-- (ISWC 2021) [Zero-shot Visual Question Answering using Knowledge Graph](https://github.com/zjukg/ZS-F-VQA)
-- (WWW 2021) [OntoZSL: Ontology-enhanced Zero-shot Learning](https://github.com/zjukg/OntoZSL)
-
 ### Knowledge Graph with Large Language Models
 - [KG-LLM-Papers](https://github.com/zjukg/KG-LLM-Papers)
 
-## Open-source Tools
+### Open-source Tools
 - [NeuralKG](https://github.com/zjukg/NeuralKG)
 
 ## 🤝 Cite:
